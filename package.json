@@ -1,6 +1,7 @@
 {
   "name": "RN20191204",
   "version": "0.0.1",
+  "license": "ISC",
   "private": true,
   "scripts": {
     "android": "react-native run-android",

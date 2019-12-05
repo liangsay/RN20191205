@@ -39,16 +39,12 @@ export default class FlatListDemo extends Component<Props> {
   }
   render() {
       return (
-          <ScrollView
-              contentInsetAdjustmentBehavior="automatic"
-              style={styles.scrollView}>
               <View style={styles.container}>
                   <FlatList
                       data={CITY_NAMES}
                       renderItem={data => this._renderItem(data)}
                   />
               </View>
-          </ScrollView>
       );
   }
 }
