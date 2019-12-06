@@ -11,6 +11,7 @@ import {
 import FlatListDemo from "./FlatListDemo";
 import App from "./App";
 import Test from "../Test";
+import SectionListDemo from "./SectionListDemo";
 
 /* The screens you add to IOS_MODAL_ROUTES will have the modal transition.  */
 const IOS_MODAL_ROUTES = ['Test'];
@@ -36,6 +37,12 @@ const AppRoot = createStackNavigator({
             screen: FlatListDemo,
             navigationOptions: {
                 title: 'FlatListDemo'
+            }
+        },
+        SectionListDemo: {
+            screen: SectionListDemo,
+            navigationOptions: {
+                title: 'SectionListDemo'
             }
         },
         Test:{
